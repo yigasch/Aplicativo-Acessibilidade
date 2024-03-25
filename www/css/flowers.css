@@ -6,12 +6,19 @@ body{
     text-align: center;
     font-family: arial;
     font-size: large;
-    background-color: rgb(248, 248, 209);
-    line-height: 1.5em;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.8em;
     
 }
  img{
    width: 40%;
+ }
+ h1{
+     width: 100%;
+     background-color: rgb(64, 138, 141);
+     margin: 0;
+     padding: 1em;
+    color: white;
  }
 footer, .acessibilidade{
     display: flex;
@@ -22,14 +29,25 @@ footer, .acessibilidade{
     align-items: flex-end;
 }
 
+p{
+    text-align: justify;
+    margin: 2em 0;
+    font-size: 17pt;
+}
+
  footer>button{
      border: none;
      margin: 0;
      padding: 1em;
      width: 34%;
+     height: 4.5em;
      background-color: rgb(64, 138, 141);
      color: white;
      font-size: large;
+ }
+ button:hover{
+    background-color: rgb(36, 121, 124);
+
  }
 
 
@@ -40,4 +58,5 @@ footer, .acessibilidade{
      background-color: black;
      color: yellow;
     font-weight: 700;
+    font-size: large;
  }
